@@ -11,7 +11,7 @@ starterGUI:SetCore("SendNotification", {
         Button1 = "OK"
 })
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Miguelop90/Roblox-Scripts-blade-ball-3/main/miguelop90.lua", true))()
+loadstring(game:HttpGet("https://scriptblox.com/raw/UPD-Blade-Ball-op-autoparry-with-visualizer-8652"))()
 
 local RunService = game:GetService("RunService") or game:FindFirstDescendant("RunService")
 local Players = game:GetService("Players") or game:FindFirstDescendant("Players")
@@ -66,4 +66,5 @@ RunService.PreSimulation:Connect(function()
       end
     end
 end)
+
 
